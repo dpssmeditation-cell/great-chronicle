@@ -12,7 +12,10 @@ const AudioPlayer = ({ text, title }) => {
         pause,
         resume,
         cancel,
-        setRate
+        setRate,
+        voiceType,
+        setVoiceType,
+        isLoading
     } = useTextToSpeech();
 
     // Stop audio when component unmounts or text changes
@@ -49,12 +52,29 @@ const AudioPlayer = ({ text, title }) => {
 
     return (
         <div className="audio-player glass-card">
+            <div className="voice-toggle-container">
+                <div className="voice-toggle">
+                    <button
+                        className={voiceType === 'system' ? 'active' : ''}
+                        onClick={() => setVoiceType('system')}
+                    >
+                        System Voice
+                    </button>
+                    <button
+                        className={voiceType === 'custom' ? 'active' : ''}
+                        onClick={() => setVoiceType('custom')}
+                    >
+                        Enhanced Voice
+                    </button>
+                </div>
+            </div>
+
             <div className="audio-controls">
                 <button
                     className="audio-btn"
                     onClick={handleStop}
                     title="Stop"
-                    disabled={!isPlaying && !isPaused}
+                    disabled={(!isPlaying && !isPaused) || isLoading}
                 >
                     ⏹️
                 </button>
@@ -63,8 +83,13 @@ const AudioPlayer = ({ text, title }) => {
                     className="audio-btn primary"
                     onClick={handlePlayPause}
                     title={isPlaying && !isPaused ? "Pause" : "Play"}
+                    disabled={isLoading}
                 >
-                    {isPlaying && !isPaused ? '⏸️' : '▶️'}
+                    {isLoading ? (
+                        <div className="loading-indicator"></div>
+                    ) : (
+                        isPlaying && !isPaused ? '⏸️' : '▶️'
+                    )}
                 </button>
 
                 <button
