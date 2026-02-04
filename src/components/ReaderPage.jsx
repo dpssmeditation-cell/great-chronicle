@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useMemo } from 'react';
 import { useParams, useNavigate, Link } from 'react-router-dom';
 import {
     getChapterById,
@@ -9,6 +9,7 @@ import {
     saveReadingProgress
 } from '../services/dataService';
 import SEO from './SEO';
+import AudioPlayer from './AudioPlayer';
 import './ReaderPage.css';
 
 function ReaderPage() {
@@ -91,6 +92,16 @@ function ReaderPage() {
         setFontSize(prev => Math.max(12, Math.min(24, prev + delta)));
     };
 
+    // Extract plain text for speech synthesis
+    const speechText = useMemo(() => {
+        if (!chapter) return '';
+        const tmp = document.createElement('DIV');
+        tmp.innerHTML = chapter.content;
+        // Clean up common issues (like footnote markers reading as numbers generally)
+        // This is a basic implementation; might need refinement
+        return (tmp.textContent || tmp.innerText || '').replace(/\s+/g, ' ').trim();
+    }, [chapter]);
+
     if (!chapter) {
         return (
             <div className="reader-page">
@@ -130,6 +141,10 @@ function ReaderPage() {
                 type="article"
                 structuredData={structuredData}
             />
+
+            {/* Audio Player Component */}
+            <AudioPlayer text={speechText} title={plainTitle} />
+
             <div className="reader-container">
                 {/* Footnote Display Overlay */}
                 {activeFootnote && (
