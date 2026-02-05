@@ -2,7 +2,7 @@ name: Deploy to GitHub Pages
 
 on:
   push:
-    branches: [ main ]
+    branches: [main]
   workflow_dispatch:
 
 permissions:
@@ -23,27 +23,52 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-      
+
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '20'
-          cache: 'npm'
-          
+          node-version: "20"
+          cache: "npm"
+
+      - name: Cache dependencies
+        uses: actions/cache@v4
+        with:
+          path: |
+            ~/.npm
+            node_modules
+          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-node-
+
       - name: Install dependencies
         run: npm install --legacy-peer-deps
-        
+
       - name: Build
         run: npm run build
-        
+
+      - name: Verify CNAME file
+        run: |
+          if [ ! -f dist/CNAME ]; then
+            echo "❌ Error: CNAME file not found in dist directory"
+            exit 1
+          fi
+          echo "✅ CNAME file verified: $(cat dist/CNAME)"
+
+      - name: Verify build output
+        run: |
+          echo "📦 Build output summary:"
+          ls -lh dist/
+          echo ""
+          echo "✅ Build completed successfully"
+
       - name: Setup Pages
         uses: actions/configure-pages@v4
-        
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: './dist'
-          
+          path: "./dist"
+
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
