@@ -4,9 +4,14 @@ import HomePage from './components/HomePage';
 import BrowsePage from './components/BrowsePage';
 import ReaderPage from './components/ReaderPage';
 import SearchPage from './components/SearchPage';
+import Link from 'react-router-dom';
+import MemberPage from './components/MemberPage';
+import LoginPage from './components/Auth/LoginPage';
+import SignupPage from './components/Auth/SignupPage';
 import Header from './components/Header';
 import { loadChronicles } from './services/dataService';
 import { ThemeProvider } from './context/ThemeContext';
+import { AuthProvider } from './context/AuthContext'; // [NEW]
 import './index.css';
 
 function App() {
@@ -37,19 +42,24 @@ function App() {
 
   return (
     <ThemeProvider>
-      <Router>
-        <div className="app">
-          <Header />
-          <main>
-            <Routes>
-              <Route path="/" element={<HomePage />} />
-              <Route path="/browse" element={<BrowsePage />} />
-              <Route path="/read/:id" element={<ReaderPage />} />
-              <Route path="/search" element={<SearchPage />} />
-            </Routes>
-          </main>
-        </div>
-      </Router>
+      <AuthProvider> {/* [NEW] */}
+        <Router>
+          <div className="app">
+            <Header />
+            <main>
+              <Routes>
+                <Route path="/" element={<HomePage />} />
+                <Route path="/browse" element={<BrowsePage />} />
+                <Route path="/read/:id" element={<ReaderPage />} />
+                <Route path="/search" element={<SearchPage />} />
+                <Route path="/member" element={<MemberPage />} />
+                <Route path="/login" element={<LoginPage />} /> {/* [NEW] */}
+                <Route path="/signup" element={<SignupPage />} /> {/* [NEW] */}
+              </Routes>
+            </main>
+          </div>
+        </Router>
+      </AuthProvider> {/* [NEW] */}
     </ThemeProvider>
   );
 }
