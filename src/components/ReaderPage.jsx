@@ -9,6 +9,7 @@ import {
     saveReadingProgress
 } from '../services/dataService';
 import SEO from './SEO';
+import { useReadingStats } from '../hooks/useReadingStats';
 import './ReaderPage.css';
 
 function ReaderPage() {
@@ -21,6 +22,9 @@ function ReaderPage() {
 
     // Footnote state
     const [activeFootnote, setActiveFootnote] = useState(null);
+
+    // Reading stats
+    const { readingTime, scrollProgress, formatTime } = useReadingStats(id);
 
     useEffect(() => {
         const chapterData = getChapterById(id);
@@ -209,6 +213,9 @@ function ReaderPage() {
                         <div className="chapter-meta">
                             <span className="badge">Chapter {chapter.chapter}</span>
                             <span className="page-range">Pages {chapter.startPage}-{chapter.endPage}</span>
+                            <span className="reading-stats" title="Reading time & progress">
+                                ⏱️ {formatTime(readingTime)} • {scrollProgress}% read
+                            </span>
                         </div>
                         <h1
                             className="chapter-title"
