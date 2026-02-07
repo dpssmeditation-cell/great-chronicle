@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext'; // [NEW]
+import Translator from './Translator';
 import ThemeToggle from './ThemeToggle';
 import './Header.css';
 
@@ -22,7 +23,8 @@ function Header() {
                         ) : (
                             <Link to="/login" className="nav-link">Sign In</Link>
                         )}
-                        <div style={{ marginLeft: '1rem' }}>
+                        <div style={{ marginLeft: '1rem', display: 'flex', alignItems: 'center' }}>
+                            <Translator />
                             <ThemeToggle />
                         </div>
                     </nav>
