@@ -175,6 +175,9 @@ function ReaderPage() {
                         </div>
                     </div>
                     <div className="toolbar-right">
+                        <span className="reading-stats" title="Reading time & progress" style={{ marginRight: '1rem', fontSize: '0.9rem', color: 'var(--color-text-muted)' }}>
+                            ⏱️ {formatTime(readingTime)} • {scrollProgress}% read
+                        </span>
                         <button
                             onClick={() => window.print()}
                             className="btn btn-secondary"
@@ -213,9 +216,6 @@ function ReaderPage() {
                         <div className="chapter-meta">
                             <span className="badge">Chapter {chapter.chapter}</span>
                             <span className="page-range">Pages {chapter.startPage}-{chapter.endPage}</span>
-                            <span className="reading-stats" title="Reading time & progress">
-                                ⏱️ {formatTime(readingTime)} • {scrollProgress}% read
-                            </span>
                         </div>
                         <h1
                             className="chapter-title"
