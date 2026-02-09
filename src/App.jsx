@@ -1,11 +1,16 @@
 import { useState, useEffect } from 'react';
+<<<<<<< HEAD
 import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
 import CookieConsent from 'react-cookie-consent';
 import Cookies from 'js-cookie';
+=======
+import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+>>>>>>> 541ddacc7b4115228ea1d3f7d80c80fd2293374e
 import HomePage from './components/HomePage';
 import BrowsePage from './components/BrowsePage';
 import ReaderPage from './components/ReaderPage';
 import SearchPage from './components/SearchPage';
+<<<<<<< HEAD
 import Header from './components/Header';
 import { loadChronicles } from './services/dataService';
 import { ThemeProvider } from './context/ThemeContext';
@@ -23,13 +28,28 @@ function AnalyticsTracker() {
   return null;
 }
 
+=======
+
+import MemberPage from './components/MemberPage';
+import LoginPage from './components/Auth/LoginPage';
+import SignupPage from './components/Auth/SignupPage';
+import Header from './components/Header';
+import { loadChronicles } from './services/dataService';
+import { ThemeProvider } from './context/ThemeContext';
+import { AuthProvider } from './context/AuthContext'; // [NEW]
+import './index.css';
+
+>>>>>>> 541ddacc7b4115228ea1d3f7d80c80fd2293374e
 function App() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
+<<<<<<< HEAD
     // Initialize Google Analytics
     initGA();
 
+=======
+>>>>>>> 541ddacc7b4115228ea1d3f7d80c80fd2293374e
     // Preload data
     loadChronicles().then(() => {
       setLoading(false);
@@ -54,6 +74,7 @@ function App() {
 
   return (
     <ThemeProvider>
+<<<<<<< HEAD
       <Router>
         <AnalyticsTracker />
         <div className="app">
@@ -140,6 +161,26 @@ function App() {
           </span>
         </CookieConsent>
       </Router>
+=======
+      <AuthProvider> {/* [NEW] */}
+        <Router>
+          <div className="app">
+            <Header />
+            <main>
+              <Routes>
+                <Route path="/" element={<HomePage />} />
+                <Route path="/browse" element={<BrowsePage />} />
+                <Route path="/read/:id" element={<ReaderPage />} />
+                <Route path="/search" element={<SearchPage />} />
+                <Route path="/member" element={<MemberPage />} />
+                <Route path="/login" element={<LoginPage />} /> {/* [NEW] */}
+                <Route path="/signup" element={<SignupPage />} /> {/* [NEW] */}
+              </Routes>
+            </main>
+          </div>
+        </Router>
+      </AuthProvider> {/* [NEW] */}
+>>>>>>> 541ddacc7b4115228ea1d3f7d80c80fd2293374e
     </ThemeProvider>
   );
 }

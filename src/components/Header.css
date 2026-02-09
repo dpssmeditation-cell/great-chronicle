@@ -2,7 +2,11 @@
     position: sticky;
     top: 0;
     z-index: 100;
+<<<<<<< HEAD
     background: rgba(15, 10, 30, 0.9);
+=======
+    background: var(--color-background-secondary);
+>>>>>>> 541ddacc7b4115228ea1d3f7d80c80fd2293374e
     backdrop-filter: blur(20px);
     border-bottom: 1px solid rgba(139, 92, 246, 0.2);
     box-shadow: var(--shadow-md);

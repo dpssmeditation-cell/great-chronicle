@@ -9,6 +9,7 @@ import {
     saveReadingProgress
 } from '../services/dataService';
 import SEO from './SEO';
+import { useReadingStats } from '../hooks/useReadingStats';
 import './ReaderPage.css';
 
 function ReaderPage() {
@@ -21,6 +22,9 @@ function ReaderPage() {
 
     // Footnote state
     const [activeFootnote, setActiveFootnote] = useState(null);
+
+    // Reading stats
+    const { readingTime, scrollProgress, formatTime } = useReadingStats(id);
 
     useEffect(() => {
         const chapterData = getChapterById(id);
@@ -70,7 +74,12 @@ function ReaderPage() {
             });
         });
 
+        console.log('Total chapters:', allChapters.length);
+        console.log('Current ID:', id);
         const currentIndex = allChapters.findIndex(ch => ch.id === id);
+        console.log('Current index:', currentIndex);
+        console.log('Next chapter:', currentIndex < allChapters.length - 1 ? allChapters[currentIndex + 1] : null);
+
         setNavigation({
             prev: currentIndex > 0 ? allChapters[currentIndex - 1] : null,
             next: currentIndex < allChapters.length - 1 ? allChapters[currentIndex + 1] : null
@@ -166,6 +175,9 @@ function ReaderPage() {
                         </div>
                     </div>
                     <div className="toolbar-right">
+                        <span className="reading-stats" title="Reading time & progress" style={{ marginRight: '1rem', fontSize: '0.9rem', color: 'var(--color-text-muted)' }}>
+                            ⏱️ {formatTime(readingTime)} • {scrollProgress}% read
+                        </span>
                         <button
                             onClick={() => window.print()}
                             className="btn btn-secondary"
@@ -195,11 +207,11 @@ function ReaderPage() {
                         >
                             {bookmarked ? '★' : '☆'}
                         </button>
-                    </div>
-                </div>
+                    </div >
+                </div >
 
                 {/* Reader Content */}
-                <article className="reader-content glass-card">
+                < article className="reader-content glass-card" >
                     <header className="chapter-header">
                         <div className="chapter-meta">
                             <span className="badge">Chapter {chapter.chapter}</span>
@@ -216,38 +228,47 @@ function ReaderPage() {
                         style={{ fontSize: `${fontSize}px` }}
                         dangerouslySetInnerHTML={{ __html: chapter.content }}
                     />
-                </article>
+                </article >
 
                 {/* Navigation */}
-                <div className="reader-navigation">
-                    {navigation.prev && (
-                        <Link
-                            to={`/read/${navigation.prev.id}`}
-                            className="nav-button glass-card"
-                        >
-                            <span className="nav-label">← Previous</span>
-                            <span
-                                className="nav-title"
-                                dangerouslySetInnerHTML={{ __html: navigation.prev.title }}
-                            />
-                        </Link>
-                    )}
-                    <div style={{ flex: 1 }} />
-                    {navigation.next && (
-                        <Link
-                            to={`/read/${navigation.next.id}`}
-                            className="nav-button glass-card"
-                        >
-                            <span className="nav-label">Next →</span>
-                            <span
-                                className="nav-title"
-                                dangerouslySetInnerHTML={{ __html: navigation.next.title }}
-                            />
-                        </Link>
-                    )}
-                </div>
-            </div>
-        </div>
+                < div className="reader-navigation" >
+                    {
+                        navigation.prev && (
+                            <Link
+                                to={`/read/${navigation.prev.id}`}
+                                className="nav-button glass-card"
+                            >
+                                <span className="nav-label">← Previous</span>
+                                <span
+                                    className="nav-title"
+                                    dangerouslySetInnerHTML={{ __html: navigation.prev.title }}
+                                />
+                            </Link>
+                        )
+                    }
+                    < div style={{ flex: 1 }
+                    } />
+                    {
+                        navigation.next && (
+                            <Link
+                                to={`/read/${navigation.next.id}`}
+                                className="nav-button glass-card"
+                                onClick={(e) => {
+                                    console.log('Next button clicked!', navigation.next.id);
+                                    // Let the Link handle navigation normally
+                                }}
+                            >
+                                <span className="nav-label">Next →</span>
+                                <span
+                                    className="nav-title"
+                                    dangerouslySetInnerHTML={{ __html: navigation.next.title }}
+                                />
+                            </Link>
+                        )
+                    }
+                </div >
+            </div >
+        </div >
     );
 }
 
