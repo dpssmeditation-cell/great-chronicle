@@ -1,8 +1,5 @@
 User-agent: *
 Allow: /
-<<<<<<< HEAD
-Sitemap: https://greatchronicle.com/sitemap.xml
-=======
 Sitemap: https://greatchronicleofthebuddha.site/sitemap.xml
 Disallow: /trackback/
 Disallow: /xmlrpc.php
@@ -46,4 +43,3 @@ Crawl-delay: 1
 
 User-agent: pinerest
 Crawl-delay: 1
->>>>>>> 541ddacc7b4115228ea1d3f7d80c80fd2293374e

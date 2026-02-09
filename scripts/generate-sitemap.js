@@ -5,11 +5,7 @@ import { fileURLToPath } from 'url';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-<<<<<<< HEAD
-const BASE_URL = 'https://greatchronicle.com'; // Replace with actual domain
-=======
 const BASE_URL = 'https://greatchronicleofthebuddha.site';
->>>>>>> 541ddacc7b4115228ea1d3f7d80c80fd2293374e
 const DATA_PATH = path.join(__dirname, '../public/data/chronicles.json');
 const SITEMAP_PATH = path.join(__dirname, '../public/sitemap.xml');
 

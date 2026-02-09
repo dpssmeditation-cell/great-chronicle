@@ -1,617 +1,342 @@
-<<<<<<< HEAD
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://greatchronicle.com/</loc>
-=======
-﻿<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url>
     <loc>https://greatchronicleofthebuddha.site/</loc>
->>>>>>> 541ddacc7b4115228ea1d3f7d80c80fd2293374e
     <changefreq>weekly</changefreq>
     <priority>1</priority>
   </url>
   <url>
-<<<<<<< HEAD
-    <loc>https://greatchronicle.com/browse</loc>
-=======
     <loc>https://greatchronicleofthebuddha.site/browse</loc>
->>>>>>> 541ddacc7b4115228ea1d3f7d80c80fd2293374e
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-<<<<<<< HEAD
-    <loc>https://greatchronicle.com/search</loc>
-=======
     <loc>https://greatchronicleofthebuddha.site/search</loc>
->>>>>>> 541ddacc7b4115228ea1d3f7d80c80fd2293374e
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-<<<<<<< HEAD
-    <loc>https://greatchronicle.com/read/v1-p1-c1</loc>
-=======
     <loc>https://greatchronicleofthebuddha.site/read/v1-p1-c1</loc>
->>>>>>> 541ddacc7b4115228ea1d3f7d80c80fd2293374e
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-<<<<<<< HEAD
-    <loc>https://greatchronicle.com/read/v1-p1-c1</loc>
-=======
     <loc>https://greatchronicleofthebuddha.site/read/v1-p1-c1</loc>
->>>>>>> 541ddacc7b4115228ea1d3f7d80c80fd2293374e
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-<<<<<<< HEAD
-    <loc>https://greatchronicle.com/read/v1-p1-c2</loc>
-=======
     <loc>https://greatchronicleofthebuddha.site/read/v1-p1-c2</loc>
->>>>>>> 541ddacc7b4115228ea1d3f7d80c80fd2293374e
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-<<<<<<< HEAD
-    <loc>https://greatchronicle.com/read/v1-p1-c3</loc>
-=======
     <loc>https://greatchronicleofthebuddha.site/read/v1-p1-c3</loc>
->>>>>>> 541ddacc7b4115228ea1d3f7d80c80fd2293374e
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-<<<<<<< HEAD
-    <loc>https://greatchronicle.com/read/v1-p1-c4</loc>
-=======
     <loc>https://greatchronicleofthebuddha.site/read/v1-p1-c4</loc>
->>>>>>> 541ddacc7b4115228ea1d3f7d80c80fd2293374e
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-<<<<<<< HEAD
-    <loc>https://greatchronicle.com/read/v1-p1-c4</loc>
-=======
     <loc>https://greatchronicleofthebuddha.site/read/v1-p1-c4</loc>
->>>>>>> 541ddacc7b4115228ea1d3f7d80c80fd2293374e
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-<<<<<<< HEAD
-    <loc>https://greatchronicle.com/read/v1-p1-c5</loc>
-=======
     <loc>https://greatchronicleofthebuddha.site/read/v1-p1-c5</loc>
->>>>>>> 541ddacc7b4115228ea1d3f7d80c80fd2293374e
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-<<<<<<< HEAD
-    <loc>https://greatchronicle.com/read/v1-p1-c6</loc>
-=======
     <loc>https://greatchronicleofthebuddha.site/read/v1-p1-c6</loc>
->>>>>>> 541ddacc7b4115228ea1d3f7d80c80fd2293374e
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-<<<<<<< HEAD
-    <loc>https://greatchronicle.com/read/v1-p1-c6</loc>
-=======
     <loc>https://greatchronicleofthebuddha.site/read/v1-p1-c6</loc>
->>>>>>> 541ddacc7b4115228ea1d3f7d80c80fd2293374e
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-<<<<<<< HEAD
-    <loc>https://greatchronicle.com/read/v1-p2-c7</loc>
-=======
     <loc>https://greatchronicleofthebuddha.site/read/v1-p2-c7</loc>
->>>>>>> 541ddacc7b4115228ea1d3f7d80c80fd2293374e
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-<<<<<<< HEAD
-    <loc>https://greatchronicle.com/read/v1-p2-c8</loc>
-=======
     <loc>https://greatchronicleofthebuddha.site/read/v1-p2-c8</loc>
->>>>>>> 541ddacc7b4115228ea1d3f7d80c80fd2293374e
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-<<<<<<< HEAD
-    <loc>https://greatchronicle.com/read/v1-p2-c9</loc>
-=======
     <loc>https://greatchronicleofthebuddha.site/read/v1-p2-c9</loc>
->>>>>>> 541ddacc7b4115228ea1d3f7d80c80fd2293374e
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-<<<<<<< HEAD
-    <loc>https://greatchronicle.com/read/v1-p2-c9</loc>
-=======
     <loc>https://greatchronicleofthebuddha.site/read/v1-p2-c9</loc>
->>>>>>> 541ddacc7b4115228ea1d3f7d80c80fd2293374e
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-<<<<<<< HEAD
-    <loc>https://greatchronicle.com/read/v1-p2-c9</loc>
-=======
     <loc>https://greatchronicleofthebuddha.site/read/v1-p2-c9</loc>
->>>>>>> 541ddacc7b4115228ea1d3f7d80c80fd2293374e
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-<<<<<<< HEAD
-    <loc>https://greatchronicle.com/read/v2-p1-c1</loc>
-=======
     <loc>https://greatchronicleofthebuddha.site/read/v2-p1-c1</loc>
->>>>>>> 541ddacc7b4115228ea1d3f7d80c80fd2293374e
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-<<<<<<< HEAD
-    <loc>https://greatchronicle.com/read/v2-p1-c2</loc>
-=======
     <loc>https://greatchronicleofthebuddha.site/read/v2-p1-c2</loc>
->>>>>>> 541ddacc7b4115228ea1d3f7d80c80fd2293374e
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-<<<<<<< HEAD
-    <loc>https://greatchronicle.com/read/v2-p1-c3</loc>
-=======
     <loc>https://greatchronicleofthebuddha.site/read/v2-p1-c3</loc>
->>>>>>> 541ddacc7b4115228ea1d3f7d80c80fd2293374e
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-<<<<<<< HEAD
-    <loc>https://greatchronicle.com/read/v2-p1-c4</loc>
-=======
     <loc>https://greatchronicleofthebuddha.site/read/v2-p1-c4</loc>
->>>>>>> 541ddacc7b4115228ea1d3f7d80c80fd2293374e
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-<<<<<<< HEAD
-    <loc>https://greatchronicle.com/read/v2-p1-c5</loc>
-=======
     <loc>https://greatchronicleofthebuddha.site/read/v2-p1-c5</loc>
->>>>>>> 541ddacc7b4115228ea1d3f7d80c80fd2293374e
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-<<<<<<< HEAD
-    <loc>https://greatchronicle.com/read/v2-p1-c6</loc>
-=======
     <loc>https://greatchronicleofthebuddha.site/read/v2-p1-c6</loc>
->>>>>>> 541ddacc7b4115228ea1d3f7d80c80fd2293374e
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-<<<<<<< HEAD
-    <loc>https://greatchronicle.com/read/v2-p1-c7</loc>
-=======
     <loc>https://greatchronicleofthebuddha.site/read/v2-p1-c7</loc>
->>>>>>> 541ddacc7b4115228ea1d3f7d80c80fd2293374e
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-<<<<<<< HEAD
-    <loc>https://greatchronicle.com/read/v2-p1-c8</loc>
-=======
     <loc>https://greatchronicleofthebuddha.site/read/v2-p1-c8</loc>
->>>>>>> 541ddacc7b4115228ea1d3f7d80c80fd2293374e
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-<<<<<<< HEAD
-    <loc>https://greatchronicle.com/read/v2-p2-c1</loc>
-=======
     <loc>https://greatchronicleofthebuddha.site/read/v2-p2-c1</loc>
->>>>>>> 541ddacc7b4115228ea1d3f7d80c80fd2293374e
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-<<<<<<< HEAD
-    <loc>https://greatchronicle.com/read/v2-p2-c9</loc>
-=======
     <loc>https://greatchronicleofthebuddha.site/read/v2-p2-c9</loc>
->>>>>>> 541ddacc7b4115228ea1d3f7d80c80fd2293374e
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-<<<<<<< HEAD
-    <loc>https://greatchronicle.com/read/v2-p2-c10</loc>
-=======
     <loc>https://greatchronicleofthebuddha.site/read/v2-p2-c10</loc>
->>>>>>> 541ddacc7b4115228ea1d3f7d80c80fd2293374e
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-<<<<<<< HEAD
-    <loc>https://greatchronicle.com/read/v2-p2-c11</loc>
-=======
     <loc>https://greatchronicleofthebuddha.site/read/v2-p2-c11</loc>
->>>>>>> 541ddacc7b4115228ea1d3f7d80c80fd2293374e
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-<<<<<<< HEAD
-    <loc>https://greatchronicle.com/read/v2-p2-c12</loc>
-=======
     <loc>https://greatchronicleofthebuddha.site/read/v2-p2-c12</loc>
->>>>>>> 541ddacc7b4115228ea1d3f7d80c80fd2293374e
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-<<<<<<< HEAD
-    <loc>https://greatchronicle.com/read/v2-p2-c13</loc>
-=======
     <loc>https://greatchronicleofthebuddha.site/read/v2-p2-c13</loc>
->>>>>>> 541ddacc7b4115228ea1d3f7d80c80fd2293374e
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-<<<<<<< HEAD
-    <loc>https://greatchronicle.com/read/v2-p2-c14</loc>
-=======
     <loc>https://greatchronicleofthebuddha.site/read/v2-p2-c14</loc>
->>>>>>> 541ddacc7b4115228ea1d3f7d80c80fd2293374e
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-<<<<<<< HEAD
-    <loc>https://greatchronicle.com/read/v2-p2-c15</loc>
-=======
     <loc>https://greatchronicleofthebuddha.site/read/v2-p2-c15</loc>
->>>>>>> 541ddacc7b4115228ea1d3f7d80c80fd2293374e
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-<<<<<<< HEAD
-    <loc>https://greatchronicle.com/read/v3-p0-c16</loc>
-=======
     <loc>https://greatchronicleofthebuddha.site/read/v3-p0-c16</loc>
->>>>>>> 541ddacc7b4115228ea1d3f7d80c80fd2293374e
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-<<<<<<< HEAD
-    <loc>https://greatchronicle.com/read/v3-p0-c17</loc>
-=======
     <loc>https://greatchronicleofthebuddha.site/read/v3-p0-c17</loc>
->>>>>>> 541ddacc7b4115228ea1d3f7d80c80fd2293374e
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-<<<<<<< HEAD
-    <loc>https://greatchronicle.com/read/v3-p0-c18</loc>
-=======
     <loc>https://greatchronicleofthebuddha.site/read/v3-p0-c18</loc>
->>>>>>> 541ddacc7b4115228ea1d3f7d80c80fd2293374e
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-<<<<<<< HEAD
-    <loc>https://greatchronicle.com/read/v3-p0-c19</loc>
-=======
     <loc>https://greatchronicleofthebuddha.site/read/v3-p0-c19</loc>
->>>>>>> 541ddacc7b4115228ea1d3f7d80c80fd2293374e
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-<<<<<<< HEAD
-    <loc>https://greatchronicle.com/read/v3-p0-c20</loc>
-=======
     <loc>https://greatchronicleofthebuddha.site/read/v3-p0-c20</loc>
->>>>>>> 541ddacc7b4115228ea1d3f7d80c80fd2293374e
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-<<<<<<< HEAD
-    <loc>https://greatchronicle.com/read/v3-p0-c21</loc>
-=======
     <loc>https://greatchronicleofthebuddha.site/read/v3-p0-c21</loc>
->>>>>>> 541ddacc7b4115228ea1d3f7d80c80fd2293374e
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-<<<<<<< HEAD
-    <loc>https://greatchronicle.com/read/v3-p0-c22</loc>
-=======
     <loc>https://greatchronicleofthebuddha.site/read/v3-p0-c22</loc>
->>>>>>> 541ddacc7b4115228ea1d3f7d80c80fd2293374e
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-<<<<<<< HEAD
-    <loc>https://greatchronicle.com/read/v3-p0-c23</loc>
-=======
     <loc>https://greatchronicleofthebuddha.site/read/v3-p0-c23</loc>
->>>>>>> 541ddacc7b4115228ea1d3f7d80c80fd2293374e
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-<<<<<<< HEAD
-    <loc>https://greatchronicle.com/read/v3-p0-c24</loc>
-=======
     <loc>https://greatchronicleofthebuddha.site/read/v3-p0-c24</loc>
->>>>>>> 541ddacc7b4115228ea1d3f7d80c80fd2293374e
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-<<<<<<< HEAD
-    <loc>https://greatchronicle.com/read/v3-p0-c25</loc>
-=======
     <loc>https://greatchronicleofthebuddha.site/read/v3-p0-c25</loc>
->>>>>>> 541ddacc7b4115228ea1d3f7d80c80fd2293374e
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-<<<<<<< HEAD
-    <loc>https://greatchronicle.com/read/v3-p0-c26</loc>
-=======
     <loc>https://greatchronicleofthebuddha.site/read/v3-p0-c26</loc>
->>>>>>> 541ddacc7b4115228ea1d3f7d80c80fd2293374e
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-<<<<<<< HEAD
-    <loc>https://greatchronicle.com/read/v3-p0-c27</loc>
-=======
     <loc>https://greatchronicleofthebuddha.site/read/v3-p0-c27</loc>
->>>>>>> 541ddacc7b4115228ea1d3f7d80c80fd2293374e
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-<<<<<<< HEAD
-    <loc>https://greatchronicle.com/read/v4-p0-c28</loc>
-=======
     <loc>https://greatchronicleofthebuddha.site/read/v4-p0-c28</loc>
->>>>>>> 541ddacc7b4115228ea1d3f7d80c80fd2293374e
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-<<<<<<< HEAD
-    <loc>https://greatchronicle.com/read/v4-p0-c29</loc>
-=======
     <loc>https://greatchronicleofthebuddha.site/read/v4-p0-c29</loc>
->>>>>>> 541ddacc7b4115228ea1d3f7d80c80fd2293374e
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-<<<<<<< HEAD
-    <loc>https://greatchronicle.com/read/v4-p0-c30</loc>
-=======
     <loc>https://greatchronicleofthebuddha.site/read/v4-p0-c30</loc>
->>>>>>> 541ddacc7b4115228ea1d3f7d80c80fd2293374e
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-<<<<<<< HEAD
-    <loc>https://greatchronicle.com/read/v4-p0-c31</loc>
-=======
     <loc>https://greatchronicleofthebuddha.site/read/v4-p0-c31</loc>
->>>>>>> 541ddacc7b4115228ea1d3f7d80c80fd2293374e
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-<<<<<<< HEAD
-    <loc>https://greatchronicle.com/read/v4-p0-c32</loc>
-=======
     <loc>https://greatchronicleofthebuddha.site/read/v4-p0-c32</loc>
->>>>>>> 541ddacc7b4115228ea1d3f7d80c80fd2293374e
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-<<<<<<< HEAD
-    <loc>https://greatchronicle.com/read/v4-p0-c33</loc>
-=======
     <loc>https://greatchronicleofthebuddha.site/read/v4-p0-c33</loc>
->>>>>>> 541ddacc7b4115228ea1d3f7d80c80fd2293374e
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-<<<<<<< HEAD
-    <loc>https://greatchronicle.com/read/v4-p0-c34</loc>
-=======
     <loc>https://greatchronicleofthebuddha.site/read/v4-p0-c34</loc>
->>>>>>> 541ddacc7b4115228ea1d3f7d80c80fd2293374e
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-<<<<<<< HEAD
-    <loc>https://greatchronicle.com/read/v4-p0-c35</loc>
-=======
     <loc>https://greatchronicleofthebuddha.site/read/v4-p0-c35</loc>
->>>>>>> 541ddacc7b4115228ea1d3f7d80c80fd2293374e
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-<<<<<<< HEAD
-    <loc>https://greatchronicle.com/read/v4-p0-c36</loc>
-=======
     <loc>https://greatchronicleofthebuddha.site/read/v4-p0-c36</loc>
->>>>>>> 541ddacc7b4115228ea1d3f7d80c80fd2293374e
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-<<<<<<< HEAD
-    <loc>https://greatchronicle.com/read/v4-p0-c37</loc>
-=======
     <loc>https://greatchronicleofthebuddha.site/read/v4-p0-c37</loc>
->>>>>>> 541ddacc7b4115228ea1d3f7d80c80fd2293374e
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-<<<<<<< HEAD
-    <loc>https://greatchronicle.com/read/v5-p0-c38</loc>
-=======
     <loc>https://greatchronicleofthebuddha.site/read/v5-p0-c38</loc>
->>>>>>> 541ddacc7b4115228ea1d3f7d80c80fd2293374e
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-<<<<<<< HEAD
-    <loc>https://greatchronicle.com/read/v5-p0-c39</loc>
-=======
     <loc>https://greatchronicleofthebuddha.site/read/v5-p0-c39</loc>
->>>>>>> 541ddacc7b4115228ea1d3f7d80c80fd2293374e
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-<<<<<<< HEAD
-    <loc>https://greatchronicle.com/read/v5-p0-c40</loc>
-=======
     <loc>https://greatchronicleofthebuddha.site/read/v5-p0-c40</loc>
->>>>>>> 541ddacc7b4115228ea1d3f7d80c80fd2293374e
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-<<<<<<< HEAD
-    <loc>https://greatchronicle.com/read/v5-p0-c41</loc>
-=======
     <loc>https://greatchronicleofthebuddha.site/read/v5-p0-c41</loc>
->>>>>>> 541ddacc7b4115228ea1d3f7d80c80fd2293374e
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-<<<<<<< HEAD
-    <loc>https://greatchronicle.com/read/v5-p0-c42</loc>
-=======
     <loc>https://greatchronicleofthebuddha.site/read/v5-p0-c42</loc>
->>>>>>> 541ddacc7b4115228ea1d3f7d80c80fd2293374e
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-<<<<<<< HEAD
-    <loc>https://greatchronicle.com/read/v6-p1-c43</loc>
-=======
     <loc>https://greatchronicleofthebuddha.site/read/v6-p1-c43</loc>
->>>>>>> 541ddacc7b4115228ea1d3f7d80c80fd2293374e
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-<<<<<<< HEAD
-    <loc>https://greatchronicle.com/read/v6-p1-c43</loc>
-=======
     <loc>https://greatchronicleofthebuddha.site/read/v6-p1-c43</loc>
->>>>>>> 541ddacc7b4115228ea1d3f7d80c80fd2293374e
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-<<<<<<< HEAD
-    <loc>https://greatchronicle.com/read/v6-p1-c43</loc>
-=======
     <loc>https://greatchronicleofthebuddha.site/read/v6-p1-c43</loc>
->>>>>>> 541ddacc7b4115228ea1d3f7d80c80fd2293374e
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-<<<<<<< HEAD
-    <loc>https://greatchronicle.com/read/v6-p1-c43</loc>
-=======
     <loc>https://greatchronicleofthebuddha.site/read/v6-p1-c43</loc>
->>>>>>> 541ddacc7b4115228ea1d3f7d80c80fd2293374e
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-<<<<<<< HEAD
-    <loc>https://greatchronicle.com/read/v6-p2-c44</loc>
-=======
     <loc>https://greatchronicleofthebuddha.site/read/v6-p2-c44</loc>
->>>>>>> 541ddacc7b4115228ea1d3f7d80c80fd2293374e
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-<<<<<<< HEAD
-    <loc>https://greatchronicle.com/read/v6-p2-c45</loc>
-=======
     <loc>https://greatchronicleofthebuddha.site/read/v6-p2-c45</loc>
->>>>>>> 541ddacc7b4115228ea1d3f7d80c80fd2293374e
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-<<<<<<< HEAD
-    <loc>https://greatchronicle.com/read/v6-p2-c45</loc>
-=======
     <loc>https://greatchronicleofthebuddha.site/read/v6-p2-c45</loc>
->>>>>>> 541ddacc7b4115228ea1d3f7d80c80fd2293374e
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-<<<<<<< HEAD
-    <loc>https://greatchronicle.com/read/v6-p2-c45</loc>
-=======
     <loc>https://greatchronicleofthebuddha.site/read/v6-p2-c45</loc>
->>>>>>> 541ddacc7b4115228ea1d3f7d80c80fd2293374e
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
