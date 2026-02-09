@@ -48,10 +48,14 @@ This document outlines the planned enhancements for "The Great Chronicle of the 
 - **Deep Links:** Share specific chapters with metadata (title, description, URL)
 - **Documentation:** See `SOCIAL_SHARING.md` for user guide
 
-## 7. Advanced Search
+## 7. Advanced Search ✅
 **Goal:** Enhanced search capabilities.
-**Strategy:**
-- **Filters:** Boolean operators and scope filters.
+**Status:** COMPLETED
+**Implementation:**
+- **Boolean Logic:** Support for AND, OR, NOT, and Phrases ("")
+- **Filters:** Filter results by Volume and Part
+- **UI:** Advanced search interface with syntax help guide
+- **Highlights:** Search term highlighting in results
 
 ## 8. Reading Statistics
 **Goal:** Track reading habits.
