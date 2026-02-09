@@ -9,6 +9,7 @@ import {
     saveReadingProgress
 } from '../services/dataService';
 import SEO from './SEO';
+import ShareButton from './ShareButton';
 import { useReadingStats } from '../hooks/useReadingStats';
 import './ReaderPage.css';
 
@@ -178,6 +179,11 @@ function ReaderPage() {
                         <span className="reading-stats" title="Reading time & progress" style={{ marginRight: '1rem', fontSize: '0.9rem', color: 'var(--color-text-muted)' }}>
                             ⏱️ {formatTime(readingTime)} • {scrollProgress}% read
                         </span>
+                        <ShareButton
+                            title={plainTitle}
+                            text={`Read "${plainTitle}" from The Great Chronicle of Buddhas`}
+                            url={canonicalUrl}
+                        />
                         <button
                             onClick={() => window.print()}
                             className="btn btn-secondary"
