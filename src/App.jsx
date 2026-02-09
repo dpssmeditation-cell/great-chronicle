@@ -10,6 +10,7 @@ import MemberPage from './components/MemberPage';
 import LoginPage from './components/Auth/LoginPage';
 import SignupPage from './components/Auth/SignupPage';
 import Header from './components/Header';
+import InstallPrompt from './components/InstallPrompt';
 import { loadChronicles } from './services/dataService';
 import { ThemeProvider } from './context/ThemeContext';
 import { AuthProvider } from './context/AuthContext';
@@ -74,6 +75,7 @@ function App() {
                 <Route path="/signup" element={<SignupPage />} />
               </Routes>
             </main>
+            <InstallPrompt />
           </div>
 
           <CookieConsent

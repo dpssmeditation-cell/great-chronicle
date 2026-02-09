@@ -26,10 +26,16 @@ This document outlines the planned enhancements for "The Great Chronicle of the 
 - **Web Speech API:** Use `window.speechSynthesis`.
 - **UI:** Play/Pause/Speed controls.
 
-## 5. Offline Mode
+## 5. Offline Mode ✅
 **Goal:** Enable reading without internet.
-**Strategy:**
-- **PWA:** Use `vite-plugin-pwa` for service worker caching.
+**Status:** COMPLETED
+**Implementation:**
+- **PWA:** Implemented using `vite-plugin-pwa` with Workbox
+- **Service Worker:** Auto-updating with cache-first for static assets
+- **Runtime Caching:** Network-first for chapters (up to 50 cached, 7-day expiration)
+- **Install Prompt:** Custom UI component for app installation
+- **Offline Fallback:** Dedicated offline page for uncached routes
+- **Documentation:** See `OFFLINE_MODE.md` for user guide
 
 ## 6. Social Sharing
 **Goal:** Share deep links to chapters.
