@@ -116,7 +116,7 @@ function ReaderPage() {
     }
 
     const plainTitle = chapter.title.replace(/<[^>]+>/g, '');
-    const canonicalUrl = `https://greatchronicle.com/read/${id}`;
+    const canonicalUrl = `https://greatchronicleofthebuddha.site/read/${id}`;
 
     const structuredData = {
         "@context": "https://schema.org",
@@ -127,7 +127,7 @@ function ReaderPage() {
         "isPartOf": {
             "@type": "WebSite",
             "name": "The Great Chronicle of Buddhas",
-            "url": "https://greatchronicle.com"
+            "url": "https://greatchronicleofthebuddha.site"
         }
     };
 

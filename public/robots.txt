@@ -43,3 +43,5 @@ Crawl-delay: 1
 
 User-agent: pinerest
 Crawl-delay: 1
+
+Sitemap: https://greatchronicleofthebuddha.site/sitemap.xml

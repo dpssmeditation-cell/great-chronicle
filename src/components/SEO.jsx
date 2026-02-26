@@ -6,7 +6,7 @@ export default function SEO({ title, description, keywords, image, url, type = '
     const fullTitle = title ? `${title} | ${siteTitle}` : siteTitle;
     const metaDescription = description || 'Explore profound teachings and life stories of the Buddhas through this comprehensive chronicle.';
     const metaKeywords = keywords || 'Buddha, Buddhism, Chronicle, Teachings, Spiritual, Enlightenment';
-    const siteUrl = 'https://greatchronicle.com'; // Replace with actual domain
+    const siteUrl = 'https://greatchronicleofthebuddha.site';
     const fullUrl = url ? `${siteUrl}${url}` : siteUrl;
     const metaImage = image ? `${siteUrl}${image}` : `${siteUrl}/og-image.jpg`; // Ensure you have a default OG image
 

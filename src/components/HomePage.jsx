@@ -18,9 +18,60 @@ function HomePage() {
         }
     }, []);
 
+    const homeStructuredData = {
+        "@context": "https://schema.org",
+        "@graph": [
+            {
+                "@type": "WebSite",
+                "@id": "https://greatchronicleofthebuddha.site/#website",
+                "url": "https://greatchronicleofthebuddha.site/",
+                "name": "The Great Chronicle of Buddhas",
+                "description": "Explore profound teachings and life stories of the Buddhas through this comprehensive chronicle.",
+                "potentialAction": {
+                    "@type": "SearchAction",
+                    "target": {
+                        "@type": "EntryPoint",
+                        "urlTemplate": "https://greatchronicleofthebuddha.site/search?q={search_term_string}"
+                    },
+                    "query-input": "required name=search_term_string"
+                }
+            },
+            {
+                "@type": "Organization",
+                "@id": "https://greatchronicleofthebuddha.site/#organization",
+                "name": "The Great Chronicle of Buddhas",
+                "url": "https://greatchronicleofthebuddha.site/",
+                "logo": {
+                    "@type": "ImageObject",
+                    "url": "https://greatchronicleofthebuddha.site/vite.svg"
+                },
+                "sameAs": []
+            },
+            {
+                "@type": "WebPage",
+                "@id": "https://greatchronicleofthebuddha.site/#webpage",
+                "url": "https://greatchronicleofthebuddha.site/",
+                "name": "The Great Chronicle of Buddhas",
+                "isPartOf": { "@id": "https://greatchronicleofthebuddha.site/#website" },
+                "about": { "@id": "https://greatchronicleofthebuddha.site/#organization" },
+                "breadcrumb": {
+                    "@type": "BreadcrumbList",
+                    "itemListElement": [
+                        {
+                            "@type": "ListItem",
+                            "position": 1,
+                            "name": "Home",
+                            "item": "https://greatchronicleofthebuddha.site/"
+                        }
+                    ]
+                }
+            }
+        ]
+    };
+
     return (
         <div className="home-page">
-            <SEO />
+            <SEO structuredData={homeStructuredData} />
             {/* Hero Section */}
             <section className="hero">
                 <div className="container">
